@@ -7,6 +7,4 @@
 
 html {
     @apply scroll-smooth scroll-pt-[5rem]
-    /* scroll-behavior: smooth;
-    scroll-padding-top: 5rem; */
 }
