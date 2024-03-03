@@ -12,7 +12,7 @@
 </head>
 
 <body class="container mx-auto bg-rich-black">
-    <header class="sticky top-0 overflow-x-clip">
+    <header class="fixed top-0 w-full overflow-x-clip">
 
         <nav id="nav"
             class="z-10 flex items-center justify-between p-5 transition-all duration-700 ease-in-out md:px-8 bg-rich-black">
@@ -23,8 +23,8 @@
             </div>
     
             <ul id="mobile-nav-links"
-                class="lg:relative px-10 py-3 absolute h-[100svh] lg:h-fit top-0 flex flex-col justify-center lg:flex-row gap-10 bg-rich-black/50 backdrop-blur-md text-white w-1/2 md:w-2/3 lg:w-auto right-[-100%] lg:right-0 font-semibold transition-all duration-700 ease-in-out lg:shadow-none">
-                <li id="nav-links" class="transition-colors duration-300 ease-in-out hover:text-cyan-300">
+                class="lg:relative px-10 py-3 absolute min-h-[100svh] lg:min-h-fit top-0 flex flex-col items-end lg:items-start justify-center lg:flex-row gap-10 bg-rich-black/50 backdrop-blur-md text-white w-1/2 md:w-2/3 lg:w-auto right-[-100%] lg:right-0 font-semibold transition-all duration-700 ease-in-out lg:shadow-none">
+                <li id="nav-links" class="transition-colors duration-300 ease-in-out hover:text-cyan-300 active:text-cyan-300">
                     <a href="#">Home</a>
                 </li>
                 <li id="nav-links" class="transition-colors duration-300 ease-in-out hover:text-cyan-300">
@@ -57,7 +57,7 @@
         </nav>
     </header>
 
-    <main class="flex items-center justify-center h-[90svh] text-light-cyan">
+    <main class="flex items-center justify-center min-h-[100svh] text-light-cyan">
         <div>
             <h3 class="mb-2 text-lg text-center md:text-3xl">Welcome to</h3>
             <h1
